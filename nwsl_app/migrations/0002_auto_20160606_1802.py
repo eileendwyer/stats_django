@@ -20,8 +20,6 @@ def add_data(apps, schema_editor):
     GoalieStats.objects.create(PlayerName="Ashlyn Harris", TeamName="WAS", GamesPlayed=9, MinutesPlayed=810, ShotsonGoal=126, Saves=47, GA=12, GAA=1.333, SHO=1)
     GoalieStats.objects.create(PlayerName="Katelyn Rowland", TeamName="KC", GamesPlayed=3, MinutesPlayed=270, ShotsonGoal=29, Saves=13, GA=4, GAA=1.333, SHO=1)
     GoalieStats.objects.create(PlayerName="Brittany Cameron", TeamName="NJ", GamesPlayed=2, MinutesPlayed=1792, ShotsonGoal=263, Saves=87, GA=27, GAA=1.356, SHO=4)
-    pass
-
 
 
 class Migration(migrations.Migration):
